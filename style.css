@@ -1,0 +1,215 @@
+/*add flex and adjust direction for entire page*/
+
+body{
+    font-family: "Times New Roman", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/*sign-up button specs*/
+
+button{
+    padding: 8px 16px;
+    background-color:#3882F6;
+    color: #F9FAf8;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    border-style: solid;
+    width: 100px;
+   
+}
+
+.sign_up1 {
+    border-color: #3882F6;
+}
+.sign_up2{
+    border-color: #F9FAf8;;
+}
+
+/*text size and color for links and subtext in section1 & section2*/
+
+a, .h1_subtext{
+    color:#E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 2px;
+}
+
+/* create gap between links*/
+.s1 ul{
+    display:flex;
+    gap:15px;
+    list-style-type: none;   
+}
+
+/*background color for top section*/
+.top{
+    background-color: #1f2937;
+    padding:1em 13em
+}
+
+/*logo font*/
+.header_logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+/*adjust placement for logo and links*/
+.s1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+/*placeholder for s2*/
+.img_placeholder{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#F9FAF8;
+    height: 200px;
+}
+
+/*s2 format */
+.s2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+    padding: 7em 0;
+    
+}
+
+/*s2 items*/
+.s2 .right{
+    flex-shrink: 0;
+    width: 50%;
+ 
+}
+
+.s2 .left{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.header_1{
+    color:#F9FAf8;
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 0;
+
+}
+
+/*s3 format*/
+.s3{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 40px;
+   margin-left:200px;
+   margin-right:200px;
+}
+
+/*format for images*/
+img{
+    width: 180px;
+    height: 180px;
+    border: 6px solid #3882F6;
+    border-radius: 30px;
+        
+}
+
+/*format for title in s3*/
+.s3 .title{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+   
+}
+/*adjust the container placement w images*/
+.box_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:52px;
+    margin: 80px;
+    
+}
+
+.box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1em;
+}
+/*quote format*/
+
+.quote{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding:7em 13em;
+}
+
+.quote p{
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
+
+}
+
+.quote em{
+    font-size:36px;
+    font-weight: 100;
+    color:#1f2937;
+}
+
+/* call to action set, sign up button*/
+.s5{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding:5em 13em;
+
+}
+
+.action_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding:3em;
+    border-radius: 20px;
+    width:100%;
+
+}
+.s5 strong{
+    color:#FFF;
+    font-size:24px;
+}
+.s5 p{
+    color:white;
+}
+
+/*footer*/
+.s6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 2em;
+}
+
+.s6 .copyright{
+    color:white;
+}
